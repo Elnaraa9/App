@@ -7,7 +7,7 @@ namespace Application.Models
     class Group
     {
         public string No;
-        public bool IsOnline;
+        public bool IsOnline=false;
         public int Limit;
         List<Student> students;
         public Categories categories;
